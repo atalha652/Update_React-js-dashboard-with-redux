@@ -1,0 +1,67 @@
+{
+  "name": "sur-control",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fullcalendar/bootstrap": "^4.3.0",
+    "@fullcalendar/daygrid": "^4.3.0",
+    "@fullcalendar/interaction": "^4.3.0",
+    "@fullcalendar/react": "^4.3.0",
+    "@fullcalendar/timegrid": "^4.3.0",
+    "@khanacademy/react-multi-select": "^0.3.3",
+    "axios": "^0.19.0",
+    "base64toblob": "0.0.2",
+    "chart.js": "^2.8.0",
+    "chartjs-plugin-datalabels": "^0.6.0",
+    "cleave.js": "^1.5.2",
+    "cross-env": "^5.2.0",
+    "forever": "^1.0.0",
+    "i": "^0.3.6",
+    "npm": "^6.11.2",
+    "react": "^16.8.6",
+    "react-avatar-edit": "^0.8.3",
+    "react-bootstrap": "^1.0.0-beta.9",
+    "react-bootstrap-button-loader": "^2.0.0",
+    "react-bootstrap-typeahead": "^3.4.6",
+    "react-bootstrap4-modal": "^1.7.4",
+    "react-chartjs-2": "^2.9.0",
+    "react-collapsible-component": "^1.1.7",
+    "react-datepicker": "^2.7.0",
+    "react-dom": "^16.8.6",
+    "react-html-parser": "^2.0.2",
+    "react-html-table-to-excel": "^2.0.0",
+    "react-js-pagination": "^3.0.2",
+    "react-loader-spinner": "^2.3.0",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "react-select": "^3.0.8",
+    "react-time-picker": "^3.7.0",
+    "reactstrap": "^8.0.0",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

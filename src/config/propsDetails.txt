@@ -1,0 +1,23 @@
+Application Container
+
+            *  Page Action structure {
+            *      __name:           Name of Action
+            *      __className:      Left side icon className
+            *      __render:         Either render or not
+            *      __uri:            URL :: where to re-route current page
+            *  }
+            * 
+            * TAB structure {
+            *      __name:           Name of Tab
+            *      __className:      Left side icon className
+            *      __render:         Either render or not
+            *      __component:      Get content of that tab from tab function
+            *  }
+
+            e.g:
+            var __tabs = [
+                {__name:"Test", __className:"fas fa-arrow-left font-s-18 mr-2", __render: true, __component: <Testing /> },
+                {__name:"Test1", __className:"fas fa-arrow-left font-s-18 mr-2", __render: true, __component: <Testing1 /> }
+            ];
+            var __PageActions = [{__name: "Back", __uri: "/", __uri_extra: {'test':'O Wow'}, __className: "fas fa-arrow-left font-s-18 mr-2", __render: true}];
+
